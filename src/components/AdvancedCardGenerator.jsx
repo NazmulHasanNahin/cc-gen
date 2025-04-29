@@ -136,7 +136,7 @@ const AdvancedCardGenerator = () => {
             name="bin"
             value={input.bin}
             onChange={handleInputChange}
-            maxLength="6"
+            // maxLength="6"  bin er num limit
             className="p-3 rounded-md bg-gray-700 placeholder-gray-400"
             placeholder="BIN (optional)"
           />
