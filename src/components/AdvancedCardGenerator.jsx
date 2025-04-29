@@ -116,7 +116,18 @@ const AdvancedCardGenerator = () => {
     <div className="min-h-screen bg-gray-900 text-white p-6">
       <ToastContainer />
       <div className="max-w-3xl mx-auto bg-gray-800 p-6 rounded-xl shadow-lg">
-        <h1 className="text-3xl font-bold mb-6 text-center">Advanced Card Generator By <Link to={"https://github.com/NazmulHasanNahin"} > NAHIN </Link></h1>
+        <h1 className="text-3xl font-bold mb-6 text-center">
+          Advanced Card Generator By{' '}
+          <a
+            href="https://github.com/NazmulHasanNahin"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            NAHIN
+          </a>
+        </h1>
+
 
         {/* Inputs */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
